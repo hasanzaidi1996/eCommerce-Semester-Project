@@ -1,0 +1,265 @@
+/* HTML Elements*/
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+hr {
+    width: 70% !important;
+    margin: 50px auto !important;
+}
+
+.main-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.4rem;
+}
+
+.my_nav_item_text {
+    font-weight: 500;
+    color: black;
+    font-family: "Montserrat-Light";
+    font-size: 1.4rem;
+}
+
+
+.dropdown-item {
+    padding: 0 0.8rem;
+}
+
+.dropdown-menu {
+    background-color: #EF8172 !important;
+}
+
+
+/* Title Section */
+
+/* Change the padding for the container-fluid class that is
+contained in the title section
+ */
+
+#title .container-fluid {
+    padding: 2% 8%;
+    text-align: left;
+}
+
+.icon-2 {
+    color: #EF8172;
+    /* font-size: 3.5rem; */
+    margin-bottom: 1rem;
+}
+
+.icon-2:hover {
+    color: #FF4C68;
+}
+
+
+/* Title Image */
+.title-img {
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.product-text {
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.price-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.product-image {
+
+    width: 200px;
+    height: 160px;
+    margin: auto;
+}
+
+.card {
+    padding-top: 15px;
+}
+
+/* Search Bar */
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+    padding: 0 10px;
+    width: 450px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link,
+.btn-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.view-btn {
+    margin: 5%;
+    margin-bottom: 100px;
+    padding: 7px 30px;
+}
+
+.view-btn:hover {
+    background-color: rgb(255, 217, 0);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Footer Section */
+
+.icon-3 {
+    margin: 15px 10px;
+}
+
+.icon-3:hover {
+    color: rgb(228, 201, 48);
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    margin: 3%;
+}
+
+.social-link {
+    color: inherit;
+}
+
+@media (max-width: 1028px) {
+    .view-btn {
+        padding: 8px 15px;
+    }
+
+    .price-text {
+        font-size: 1.4rem;
+    }
+
+    .product-image {
+
+        width: 160px;
+        height: 120px;
+    }
+
+    .icon-3 {
+        font-size: 1.8rem;
+        margin: 12px 7px;
+    }
+
+    .section-heading {
+        font-size: 2.3rem;
+    }
+
+    .searchbar:hover>.search_input {
+        padding: 0 5px;
+        width: 270px;
+    }
+
+    .icon-3 {
+        font-size: 1.8rem;
+        margin: 12px 7px;
+    }
+}

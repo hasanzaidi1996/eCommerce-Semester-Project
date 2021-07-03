@@ -1,0 +1,172 @@
+/* HTML Elements*/
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+hr {
+    width: 70% !important;
+    margin: 100px auto !important;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.4rem;
+}
+
+.my_nav_item_text {
+  font-weight: 500;
+  color: black;
+  font-family: "Montserrat-Light";
+  font-size: 1.4rem;
+}
+
+
+.dropdown-item {
+  padding: 0 0.8rem;
+}
+
+.dropdown-menu {
+  background-color: #EF8172 !important;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 2% 8%;
+    text-align: left;
+}
+
+/* Cart Section */
+
+#cart-section {
+    margin: 110px auto;
+}
+
+.btns {
+    margin: 1%;
+}
+
+#cart-sec-btn {
+    width: 30px;
+    height: 30px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.btn-link,
+.btn-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer Section */
+
+.icon-2:hover {
+    color: #FF4C68;
+}
+
+.icon-3 {
+    margin: 15px 10px;
+}
+
+.icon-3:hover {
+    color: rgb(228, 201, 48);
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    margin: 3%;
+}
+
+.social-link {
+    color: inherit;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    .brand {
+        font-size: 2.2rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    img {
+        width: 0;
+        height: 0;
+    }
+
+    th {
+        font-size: 15px;
+    }
+
+    td {
+        font-size: 15px;
+    }
+
+    .top-btn {
+        margin-top: 50px;
+    }
+    
+    #cart-section {
+        margin: 50px auto;
+    }
+
+    .icon-3 {
+        font-size: 1.8rem;
+        margin: 12px 7px;
+    }
+}

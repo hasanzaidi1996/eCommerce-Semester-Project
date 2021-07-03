@@ -1,0 +1,297 @@
+/* HTML Elements*/
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+
+.main-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  /* padding-bottom: 4.5rem; */
+  padding: 0 0 3.5rem;
+}
+
+.nav-item {
+  padding: 5px 10px;
+}
+
+/* .my_nav_item {
+  background-color: #FF4C68;
+} */
+
+.dropdown-toggle {
+  background-color: transparent;
+  /* border-color: #fff;
+  border-style: solid; */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.my_nav_item_text {
+  font-weight: 500;
+  color: black;
+  font-family: "Montserrat-Light";
+  font-size: 1.4rem;
+}
+
+
+.dropdown-item {
+  padding: 0 0.8rem;
+}
+
+.dropdown-menu {
+  background-color: #EF8172 !important;
+}
+
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.4rem;
+}
+
+/* Title Section */
+
+/* Change the padding for the container-fluid class that is
+contained in the title section
+ */
+
+#title .container-fluid {
+  padding: 4% 10%;
+  text-align: left;
+}
+
+.icon-2 {
+  color: #EF8172;
+  /* font-size: 3.5rem; */
+  margin-bottom: 1rem;
+}
+
+.icon-2:hover {
+  color: #FF4C68;
+}
+
+
+/* Buy and contact Buttons */
+.nav-btn {
+  margin: 5% 1% 22%;
+}
+
+.btn-link, .btn-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Title Image */
+.title-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 15%;
+  top: 30%; 
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  margin: 5% 2%;
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.feature-box {
+  padding: 5% 4%;
+}
+
+#features-heading {
+  margin-bottom: 45px;
+  font-size: 3rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #EF8172;
+  padding: 3% 0;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.product-image{
+
+  width: 200px;
+  height: 160px;
+  margin: auto;
+}
+
+.card {
+  padding-top: 15px;
+}
+
+/* CTA Section */
+.btn-btn {
+  margin: 5px;
+}
+
+#cta {
+  padding: 13% 0;
+}
+
+/* Footer Section */
+
+.icon-3 {
+  margin: 15px 10px;
+}
+
+.icon-3:hover {
+  color: rgb(228, 201, 48);
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+  margin: 3%;
+}
+
+.social-link {
+  color: inherit;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  .brand {
+    font-size: 2.2rem;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    margin-bottom: 70px;
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+
+  .feature-title {
+    font-size: 1.6rem;
+  }
+
+  .nav-btn {
+    margin: 3%;
+  }
+
+  .icon-2 {
+    font-size: 3rem;
+  }
+
+  .testimonial-img {
+    width: 20%;
+  }
+
+  .section-heading,  .testimonial-text, #features-heading{
+    font-size: 2.3rem;
+  }
+
+  .price-text {
+    font-size: 1.4rem;
+  }
+
+  .product-image {
+
+    width: 160px;
+    height: 120px;
+  }
+
+  .main-heading {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+  }
+
+  #cta {
+    padding: 8% 0;
+  }
+
+  #footer{
+    margin-top: 50px;
+  }
+
+  .icon-3{
+    font-size: 1.8rem;
+    margin: 12px 7px;
+  }
+
+
+}

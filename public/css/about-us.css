@@ -1,0 +1,189 @@
+/* HTML Elements*/
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+hr {
+    width: 70% !important;
+    margin: 100px auto !important;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.4rem;
+}
+
+.my_nav_item_text {
+  font-weight: 500;
+  color: black;
+  font-family: "Montserrat-Light";
+  font-size: 1.4rem;
+}
+
+.dropdown-item {
+  padding: 0 0.8rem;
+}
+
+.dropdown-menu {
+  background-color: #EF8172 !important;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 2% 8%;
+    text-align: left;
+}
+
+/* About Us Section */
+
+.about-btn {
+    margin: 2%;
+}
+
+.about-btn:hover {
+    background-color: rgb(255, 217, 0);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+#about-us p {
+    line-height: 2;
+    text-align: center;
+}
+
+#about-us h1 {
+    margin: 3%;
+    font-size: 3em;
+}
+
+#about {
+    position: relative;
+    margin: 5% 2%;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: #EF8172;
+    /* position: relative; */
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* Footer Section */
+
+.icon-2:hover {
+    color: #FF4C68;
+}
+
+
+.icon-3 {
+    margin: 15px 10px;
+}
+
+.icon-3:hover {
+    color: rgb(228, 201, 48);
+}
+
+.icon-3:hover {
+    color: rgb(228, 201, 48);
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    margin: 3%;
+}
+
+.social-link {
+    color: inherit;
+}
+
+
+@media (max-width: 1028px) {
+    
+    .brand {
+        font-size: 2.2rem;
+    }
+    #title {
+        text-align: center;
+    }
+    #image{
+        margin-top: 50px;
+    }
+    .testimonial-text{
+        font-size: 2.3rem;
+    }
+    .icon-3 {
+        font-size: 1.8rem;
+        margin: 12px 7px;
+    }
+    hr {
+        width: 50% !important;
+        margin: 60px auto !important;
+    }
+    #about-us h1 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1rem;
+    }
+}

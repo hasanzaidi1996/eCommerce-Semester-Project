@@ -1,0 +1,87 @@
+/* Logo */
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#shopping-cart {
+    width: 75px;
+    height: 75px;
+}
+
+/* Billing Section */
+
+.container {
+    max-width: 960px;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top-gray {
+    border-top-color: #adb5bd;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+
+/* Footer */
+
+.icon-3 {
+    margin: 15px 10px;
+}
+
+.icon-3:hover {
+    color: rgb(228, 201, 48);
+}
+
+.white-section {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Buttons */
+
+.bill-btn {
+    margin: 10px 10px 0 0;
+    padding: 8px 15px;
+}
+
+.bill-btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.valid-field {
+  border: 3px solid #82BB41 !important;
+}
+
+.invalid-field {
+  border: 3px solid #D3212D !important;
+}
+
+.valid-field, .invalid-field {
+  border-radius: 10px;
+}
